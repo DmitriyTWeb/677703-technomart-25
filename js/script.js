@@ -48,7 +48,7 @@ button_login.addEventListener("click", function(evt) {
 
   for(i = 0; i < user_loged_in.length; i++) {
   	user_loged_in.item(i).classList.remove("user-navigation-hide");
-  	
+
   }
 
   for(i = 0; i < user_loged_out.length; i++) {
@@ -61,7 +61,7 @@ button_logout.addEventListener("click", function(evt) {
 
   for(i = 0; i < user_loged_in.length; i++) {
     user_loged_in.item(i).classList.add("user-navigation-hide");
-    
+
   }
 
   for(i = 0; i < user_loged_out.length; i++) {
@@ -89,7 +89,7 @@ try {
         }
 
       }
-      
+
     });
 
     arrow_right.addEventListener("click", function(evt) {
@@ -124,7 +124,7 @@ for (i = 0; i < button_buy.length; i++) {
     shopping_cart.classList.add("goods-in-cart");
   });;
 
-}  
+}
 
 for (i = 0; i < button_add_to_favorites.length; i++) {
   console.log();
@@ -135,7 +135,7 @@ for (i = 0; i < button_add_to_favorites.length; i++) {
   });
 
 }
-// переключение слайдов стрелочками
+// переключение слайдов стреками
 
 
 // Заблудились? открывает форму отправки
